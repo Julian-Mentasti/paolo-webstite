@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <body>
+        <div id="nav">
+            <p><a href="index.html">Paolo Mentasti</a></p>
+            <ul>
+                <li><a href="immigration.html">Immigration Forms</a></li>
+                <ul id="subsection">
+                    <li><a href="#section1">Sculpture</a></li>
+                    <li><a href="#section2">Books</a></li>
+                    <li><a href="#section3">Photos</a></li>
+                </ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </div>
+        <div id="canvas">
+
+            <script src="carousel.js">
+                showSlides(3)
+            </script>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="sculpt1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="sculpt2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="sculpt3.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+
+
+            <div id="section1">
+                <p>Here is a sculpture</p>
+                <img src="books.jpeg">
+            </div>
+
+            <div id="section2">
+                <p>Here is one image1</p>
+                <img src="books.jpeg">
+            </div>
+
+            <div id="section3">
+                <p>Here is one image2</p>
+                <img src="books.jpeg">
+            </div>
+        </div>
+    </body>
+</html>
