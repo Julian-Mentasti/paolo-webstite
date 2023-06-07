@@ -41,8 +41,7 @@
          color: inherit;
      }
           body {
-      
-         background-image: url('resources/IMG-9677.jpg');
+         background-color: white
      }
      #module {
          font-size: 1rem;
@@ -67,14 +66,10 @@
 
      #module a:not(.collapsed)::after {
          content: 'read less';
-}
+     }
 
     </style>
-    <script type="text/javascript">
-     if (screen.width <= 699) {
-         document.location = "immigration_mobile.html";
-     }
-    </script>
+
 
     <title>Paolo Mentasti</title>
     <!-- link to the favicon image -->
@@ -82,32 +77,47 @@
           type="image/png"
           href="resources/amphora.png">
   </head>
-  <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+  <body>
 
 
 <div class="container-fluid">
-  <div class="row content">
-      <!-- navbar start -->
-    <div class="col-sm-2 sidenav" id="myScrollspy">
-        <div id="nav">
-            <a id="navbartitle" href="index.html">Paolo Mentasti </a>
-            <p> </p>
-            <p> </p>
-            <ul>
-                <li><a id="navb" href="immigration.html"><s>Immigration Forms</s></a></li>
-                <ul id="subsection">
-                    <li class="active"><a id="navb" href="#car1"><span>Sculpture</span></a></li>
-                    <li><a id="navb" href="#car14"><span>Drawing</span></a></li>
-                    <li><a id="navb" href="#car25"><span>Photo</span></a></li>
-                </ul>
-                <li><a id="navb" href="about.html">About</a></li>
-                <li><a id="navb" href="contact.html">Contact</a></li>
-                <li><a id="navb" href="cv.html">cv</a></li>
-            </ul>
-        </div>
-    </div>
+    <nav class="navbar fixed-top" style="background-color: #FFFFFF;">
+              <!-- Navbar brand -->
+              <a id="navbartitle" class="navbar-brand" href="index_mobile.html">Paolo Mentasti</a>
 
-    <!-- navbar end -->
+              <!-- Collapse button -->
+              <button class="navbar-toggler toggler-example"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbarSupportedContent1"
+                      aria-controls="navbarSupportedContent1"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"><i>...</i></button>
+
+              <!-- Collapsible content -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+                  <!-- Links -->
+                  <ul class="navbar-nav mr-auto">
+                      <li><a id="navb" href="immigration.html"><s>Immigration Forms</s></a></li>
+                      <ul id="subsection">
+                          <li class="active"><a id="navb" href="#car1"><span>Sculpture</span></a></li>
+                          <li><a id="navb" href="#car14"><span>Drawing</span></a></li>
+                          <li><a id="navb" href="#car25"><span>Photo</span></a></li>
+                      </ul>
+                      <li><a id="navb" href="about.html">About</a></li>
+                      <li><a id="navb" href="contact.html">Contact</a></li>
+                      <li><a id="navb" href="cv.html">cv</a></li>
+                  </ul>
+                  <!-- Links -->
+
+              </div>
+              <!-- Collapsible content -->
+          </nav>
+
+
+
+  <div class="row content">
 
     <!-- body start -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -128,7 +138,9 @@
          });
      });
     </script>
-
+    <div class="col-sm-9">
+        <p>space</p>
+    </div>
     <div class="col-sm-9">
       <br>
 
@@ -156,7 +168,6 @@
                     <a id="buttonc" href="#car1" data-slide="next"><b>></b></a>
 
                 </div>
-
 
               <div class="col-sm-7">
                   <div id="module" class="container">

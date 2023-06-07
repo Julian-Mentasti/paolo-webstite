@@ -32,30 +32,15 @@
          }
          .row.content {height: auto;}
      }
-
-     body {
-         background-color: white
+          p {
+         font-size: 125%;
      }
     </style>
 
-    </style>
     <script type="text/javascript">
      if (screen.width <= 699) {
-         document.location = "index_mobile.html";
+         document.location = "about_mobile.html";
      }
-    </script>
-
-    <script type="text/javascript">
-     // place your images in this array
-     var random_images_array = ['media/*.jpg'];
-     function getRandomImage(imgAr, path) {
-         path = path || 'images/'; // default path here
-         var num = Math.floor( Math.random() * imgAr.length );
-         var img = imgAr[ num ];
-         var imgStr = '<img src="' + path + img + '" alt = "">';
-         document.write(imgStr); document.close();
-     }
-
     </script>
 
     <title>Paolo Mentasti</title>
@@ -72,12 +57,12 @@
     <div class="col-sm-2 sidenav">
 
         <div id="nav">
-            <a id="navbartitle" href="index.html"><s>Paolo Mentasti</s></a>
+            <a id="navbartitle" href="index.html">Paolo Mentasti</a>
             <p> </p>
             <p> </p>
             <ul>
                 <li><a id="navb" href="immigration.html">Immigration Forms</a></li>
-                <li><a id="navb" href="about.html">About</a></li>
+                <li><a id="navb" href="about.html"><s>About</s></a></li>
                 <li><a id="navb" href="contact.html">Contact</a></li>
                 <li><a id="navb" href="cv.html">cv</a></li>
             </ul>
@@ -90,10 +75,26 @@
 
     <div class="col-sm-10">
       <br>
-      <img src="ice/we have one enemy and that is ice 01.jpg">
-      <br>
-       <div class="col-sm-4">
-      Website by <a id="navb" href="https://www.mentasti.net">Julian Mentasti Meza</a>
+
+      <div class="container-fluid row">
+          <!-- left -->
+          <div class="col-sm-7">
+              <h4></h4><font size="2">
+              <p>Paolo Mentasti was born and raised on a plane flying between Sao Paulo, Bogota and Mexico City. He received his BFA from The Cooper Union in 2020. He is currently quarantined in New York City where he used to live and work as a studio technician and art instructor. Through his art practice, Paolo attempts to “cleanse” forms of the historical baggage that clings to them by translating and transforming. Like fat-derived soap can “cleanse” dirty oils or fats by dispersing and suspending their molecules, historically-charged forms can “cleanse” one another by unsettling each other, or making previously inert socio-political parts strange. Barbed wire and obelisks—forms deployed on the US-Mexico border—have historically functioned as accessories to, and symbolic markers of, the violent policies of the US. In To Bare on Both Sides, clay barbed wire coils are shaped into an amphora, a mass-produced classical form with roots in empire, and the historical associations of the forms are suspended and dispersed into each other. By bringing together two disparate, symbolic forms, the associations of both are atomized. 
+             </p><p>
+              Paolo Mentasti was awarded the Martin Rothenberg Travel Fellowship in 2019 to travel to Chennai, India and research the ice trade and water scarcity. His art practice involves drawing, ceramics, sculpture, photography, performance and installation.
+              </p>
+          </div>
+
+          <!-- right -->
+          <div class="col-sm-4">
+              <img src="">
+          </div>
+      </div>
+
+
+
+
     </div>
 
     <!-- body end -->

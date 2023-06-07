@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -38,26 +37,6 @@
      }
     </style>
 
-    </style>
-    <script type="text/javascript">
-     if (screen.width <= 699) {
-         document.location = "index_mobile.html";
-     }
-    </script>
-
-    <script type="text/javascript">
-     // place your images in this array
-     var random_images_array = ['media/*.jpg'];
-     function getRandomImage(imgAr, path) {
-         path = path || 'images/'; // default path here
-         var num = Math.floor( Math.random() * imgAr.length );
-         var img = imgAr[ num ];
-         var imgStr = '<img src="' + path + img + '" alt = "">';
-         document.write(imgStr); document.close();
-     }
-
-    </script>
-
     <title>Paolo Mentasti</title>
     <!-- link to the favicon image -->
     <link rel="icon"
@@ -66,31 +45,44 @@
   </head>
   <body>
 
-<div class="container-fluid">
-  <div class="row content">
-      <!-- navbar start -->
-    <div class="col-sm-2 sidenav">
+      <div class="container-fluid">
+          <nav class="navbar">
+              <!-- Navbar brand -->
+              <a id="navbartitle" class="navbar-brand" href="index_mobile.html"><s>Paolo Mentasti</s></a>
 
-        <div id="nav">
-            <a id="navbartitle" href="index.html"><s>Paolo Mentasti</s></a>
-            <p> </p>
-            <p> </p>
-            <ul>
-                <li><a id="navb" href="immigration.html">Immigration Forms</a></li>
-                <li><a id="navb" href="about.html">About</a></li>
-                <li><a id="navb" href="contact.html">Contact</a></li>
-                <li><a id="navb" href="cv.html">cv</a></li>
-            </ul>
-        </div>
+              <!-- Collapse button -->
+              <button class="navbar-toggler toggler-example"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbarSupportedContent1"
+                      aria-controls="navbarSupportedContent1"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"><i>...</i></button>
 
-    </div>
-    <!-- navbar end -->
+              <!-- Collapsible content -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+                  <!-- Links -->
+                  <ul class="navbar-nav mr-auto">
+                      <li><a id="navb" href="immigration.html">Immigration Forms</a></li>
+                      <li><a id="navb" href="about.html">About</a></li>
+                      <li><a id="navb" href="contact.html">Contact</a></li>
+                      <li><a id="navb" href="cv.html">cv</a></li>
+                  </ul>
+                  <!-- Links -->
+
+              </div>
+              <!-- Collapsible content -->
+          </nav>
+
+
+    <div class="row content">
 
     <!-- body start -->
 
-    <div class="col-sm-10">
+    <div class="col-sm-8">
       <br>
-      <img src="ice/we have one enemy and that is ice 01.jpg">
+      <img src="ice/we have one enemy and that is ice 01.jpg" width="100%">
       <br>
        <div class="col-sm-4">
       Website by <a id="navb" href="https://www.mentasti.net">Julian Mentasti Meza</a>
