@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" >
+
+    <style>
+     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+     /* .row.content {height: 3000px} */
+     /* Set gray background color and 100% height */
+     .sidenav {
+         /* background-color: #c3b091; ; */
+         height: 100%;
+     }
+     /* Set black background color, white text and some padding */
+     footer {
+         /* background-color: #555; */
+         color: #c3b091;
+         padding: 15px;
+     }
+     /* On small screens, set height to 'auto' for sidenav and grid */
+     @media screen and (max-width: 767px) {
+         .sidenav {
+             height: auto;
+             padding: 15px;
+         }
+         .row.content {height: auto;}
+     }
+     p {
+         font-size: 94%;
+     }
+     a#buttonc {
+         font-size: 110%;
+         text-decoration:none;
+         color: inherit;
+     }
+          body {
+         background-color: white
+     }
+     #module {
+         font-size: 1rem;
+         line-height: 1.5;
+     }
+
+
+     #module #collapseExample.collapse:not(.show) {
+         display: block;
+         height: 28rem;
+         overflow: hidden;
+     }
+
+     #module #collapseExample.collapsing {
+
+         height: 3rem;
+     }
+
+     #module a.collapsed::after {
+         content: 'read more';
+     }
+
+     #module a:not(.collapsed)::after {
+         content: 'read less';
+     }
+
+    </style>
+
+
+    <title>Paolo Mentasti</title>
+    <!-- link to the favicon image -->
+    <link rel="icon"
+          type="image/png"
+          href="resources/amphora.png">
+  </head>
+  <body>
+
+
+<div class="container-fluid">
+    <nav class="navbar fixed-top" style="background-color: #FFFFFF;">
+              <!-- Navbar brand -->
+              <a id="navbartitle" class="navbar-brand" href="index_mobile.html">Paolo Mentasti</a>
+
+              <!-- Collapse button -->
+              <button class="navbar-toggler toggler-example"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbarSupportedContent1"
+                      aria-controls="navbarSupportedContent1"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"><i>...</i></button>
+
+              <!-- Collapsible content -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+                  <!-- Links -->
+                  
+
+<div class="container-fluid">
+  <div class="row content">
+      <!-- navbar start -->
+    <div class="col-sm-2 sidenav" id="myScrollspy">
+        <div id="nav">
+            <a id="navbartitle" href="index.html">Paolo Mentasti </a>
+            <p> </p>
+            <p> </p>
+            <ul>
+                <li><a id="navb" href="immigration.html">Immigration Forms</a></li>
+                <li><a id="navb" href="heaven.html"><s>Heaven is under our feet as well as over our heads</s></a></li>
+                <li><a id="navb" href="about.html">About</a></li>
+                <li><a id="navb" href="contact.html">Contact</a></li>
+                <li><a id="navb" href="cv.html">cv</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- navbar end -->
+
+    <!-- body start -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+     $(function(){
+         var $curParent, Content;
+         $(document).delegate("span","click", function(){
+             if($(this).closest("s").length) {
+                 /* it works :/ */
+                 /* Content = $(this).parent("s").html();
+                  * $curParent = $(this).closest("s");
+                  * $(Content).insertAfter($curParent);
+                  * $(this).closest("s").remove(); */
+             }
+             else {
+                 $(this).wrapAll("<s />");
+             }
+         });
+     });
+    </script>
+
+    <div class="col-sm-9">
+      <br>
+
+      <!-- row one start -->
+      <div class="container-fluid">
+          <div class="row">
+
+                <div id="car1" class="carousel slide col-sm-9" data-interval="false" >
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media2/install/install1.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/install/install2.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/install/install3.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/install/install4.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/install/install5.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/install/install6.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/install/install7.jpg" style="width:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a id="buttonc" href="#car1" data-slide="prev"><b><</b></a>
+                    <a id="buttonc" href="#car1" data-slide="next"><b>></b></a>
+
+                </div>
+
+
+              <div class="col-sm-9">
+                  <p><i>Heaven is under our feet as well as over our heads</i>
+                  <br>Installation photographs of exhibition at Temple Contemporary</p><br><br><br>
+
+              </div>
+          </div>
+      </div>
+      <!-- row one end -->
+
+      <!-- row two start -->
+      <div class="container-fluid">
+          <div class="row">
+
+              <div id="car2" class="carousel slide col-sm-8" data-interval="false">
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media2/pole/PorcelainizedSacredOfferings1.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/pole/PorcelainizedSacredOfferings2.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/pole/PorcelainizedSacredOfferings3.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/pole/PorcelainizedSacredOfferings4.jpg" style="width:100%">
+                        </div>                       
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a id="buttonc" href="#car2" data-slide="prev"><b><</b></a>
+                    <a id="buttonc" href="#car2" data-slide="next"><b>></b></a>
+
+                </div>
+
+
+              <div class="col-sm-4">
+                 <i>Sacred Porcelainized Offerings</i>
+               <br>
+               Earthenware, steel, acrylic paint, aluminum, float glass, porcelain, fabric, wood, mason stain
+               <br>
+               <br>
+              The angle of the sundial’s gnomon (the shadow-casting triangle) corresponds to the co-latitude of the site in which the sacred offering in the glass casket was excavated. The single etched line on the dial plate records the time of the excavated. The sundial mark set this sacred offering apart from similar and identical sacred offerings unburied in other places and times.
+               <br>
+               <br><br><br><br><br><br><br>
+
+              </div>
+          </div>
+      </div>
+      <!-- row two end --> 
+
+      <!-- row three start -->
+      <div class="container-fluid">
+          <div class="row">
+
+              <div id="car3" class="carousel slide col-sm-9" data-interval="false">
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="media2/pussywillow/Fossilizedpussywillow1.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/pussywillow/Fossilizedpussywillow2.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/pussywillow/Fossilizedpussywillow3.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/pussywillow/Fossilizedpussywillow4.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/pussywillow/Fossilizedpussywillow5.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/pussywillow/Fossilizedpussywillow6.jpg" style="width:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a id="buttonc" href="#car3" data-slide="prev"><b><</b></a>
+                    <a id="buttonc" href="#car3" data-slide="next"><b>></b></a>
+
+                </div>
+
+
+              <div class="col-sm-9">
+                 <i>Fossilized pussy willow in full bud plucked at Swan Island, Maine on Jan 31, 1906</i>
+               <br>
+               Stoneware, pitch, glass, porcelain, fabric, wood, steel
+               <br>
+               <br>
+               <p aria-expanded="false">Delicately fragile, this is the crystalized fossil of the pussy willow twig that was framed by the officers of the American Ice Company as a reminder of the conditions the ice business confronted that year, as recorded in the New York Times on February 6, 1906. The pussy willow was excavated from the site on which the American Ice Company once stood after its location was revealed in a vision. While the card the officers attached to the pussy willow was also found porcelainized, it is not known what frame for the pussy willow the officers decided to buy.</p>
+               <p aria-expanded="false">The pussy willow is in a reliquary made entirely of pitch, a viscoelastic polymer fluid with a viscosity 230 billion times that of water, to discourage it from melting away.</p>
+               <br><br><br>
+
+                
+              </div>
+          </div>
+      </div>
+      <!-- row three end -->
+
+      
+
+      <!-- row four start -->
+      <div class="container-fluid">
+          <div class="row">
+
+              <div id="car4" class="carousel slide col-sm-9" data-interval="false">
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media2/deluge drawings/deluge1.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/deluge drawings/deluge2.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/deluge drawings/deluge3.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/deluge drawings/deluge4.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/deluge drawings/deluge5.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/deluge drawings/deluge6.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/deluge drawings/deluge7.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/deluge drawings/deluge8.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/deluge drawings/deluge9.jpg" style="width:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a id="buttonc" href="#car4" data-slide="prev"><b><</b></a>
+                    <a id="buttonc" href="#car4" data-slide="next"><b>></b></a>
+
+                </div>
+
+
+              <div class="col-sm-9">
+                  <i>Miraculous Deluge</i>
+               <br>
+               Ceramic, oxide washes, underglaze, mason stains
+               <br>
+               <br>
+               The following clay tablets depict a deluge in which not a drop was spilled.
+               <br><br><br><br><br>
+              </div>
+          </div>
+      </div>
+      <!-- row four end -->
+
+      <!-- row five start -->
+      <div class="container-fluid">
+          <div class="row">
+
+              <div id="car5" class="carousel slide col-sm-9" data-interval="false">
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media2/space plaque 2/1.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/2.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/3.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/4.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/5.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/6.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/7.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/8.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/9.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/10.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/11.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/space plaque 2/12.jpg" style="width:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a id="buttonc" href="#car5" data-slide="prev"><b><</b></a>
+                    <a id="buttonc" href="#car5" data-slide="next"><b>></b></a>
+
+                </div>
+
+
+              <div class="col-sm-9">
+                  <i>For the future to be open, space has to be open too (ongoing)</i>
+               <br>
+               Stoneware, wood, stain, wax, felt, brass
+               <br>
+               <br>
+                From larger and more profane to smaller and more sacred, the plaque marking the property line on the sidewalk outside of The Wharton School of the University of Pennsylvania is devotedly copied in clay, shrinking with every iteration to make the line disappear from the earthly realm and into heaven.
+                <br><br><br><br><br>
+
+
+              </div>
+          </div>
+      </div>
+      <!-- row five end -->
+ 
+      <!-- row six start -->
+      <div class="container-fluid">
+          <div class="row">
+
+              <div id="car6" class="carousel slide col-sm-9" data-interval="false">
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media2/vases/heaven1.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/vases/heaven2.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/vases/heaven3.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/vases/heaven4.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/vases/heaven5.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/vases/heaven6.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/vases/heaven7.jpg" style="width:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a id="buttonc" href="#car6" data-slide="prev"><b><</b></a>
+                    <a id="buttonc" href="#car6" data-slide="next"><b>></b></a>
+
+                </div>
+
+
+              <div class="col-sm-9">
+               <i>Heaven is under our feet as well as over our heads</i>
+               <br>
+               Porcelain, cobalt oxide
+               <br>
+               <br>
+               <p aria-expanded="false">These vases depict the frozen water cycle through its many stages. In the early nineteenth century, Frederick Tudor, a Boston merchant, began to ship ice harvested out of frozen New England lakes to tropical parts of the world. Using saws, frozen water would be carved, put on a train to Boston harbor where it would be loaded onto a brig and shipped to be sold in the south, the West Indies, Cuba, and as far away as India. In 2019 I was awarded a fellowship to travel to Chennai, India to investigate one of the last remaining ice houses built by Tudor. When I arrived the city had run out of water. A rapid population boom had depleted its aquifer. The urban sprawl cemented and sealed acres of land, preventing rainwater from quenching the aquifers below. To remedy the situation tanker trucks full of water were brought in from other parts of the country. As I saw people filling up their colorful plastic water jugs from the trucks, I noted water leaking out of the vessels and onto the hard ground below. </p>
+               <p aria-expanded="false">II used the plastic water jug from Chennai as the form in which I would present my research on the frozen water cycle to the fellowship committee. The bottoms of the jugs are cut open to mirror the leakage I witnessed in Chennai. It wasn’t until after I made the ceramic jugs that I found out about the 4th-century BC grave goods discovered in southern Italy: vessels with open bottoms, rendering them useless for the living. Historians infer that libations for the dead were poured through the open vases into the ground containing the human remains.</p>
+               <p aria-expanded="false">–</p><p aria-expanded="false">As requested by Temple Contemporary a plastic tarp has been placed underneath the piece to protect the gallery floor from the leaking jugs.</p><br><br><br>
+              </div>
+          </div>
+      </div>
+      <!-- row six end -->
+
+      <!-- row seven start -->
+      <div class="container-fluid">
+          <div class="row">
+
+              <div id="car7" class="carousel slide col-sm-9" data-interval="false">
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media2/ice/ice1.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/ice/ice2.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/ice/ice3.jpg" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media2/ice/ice4.jpg" style="width:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a id="buttonc" href="#car7" data-slide="prev"><b><</b></a>
+                    <a id="buttonc" href="#car7" data-slide="next"><b>></b></a>
+
+                </div>
+
+
+              <div class="col-sm-9">
+               <i>Ice</i>
+               <br>
+                Ice
+               <br>
+               <br>
+               Originally weighing close to a ton, this frozen water cube was found in the deep sea wreckage of the Tuscany, a wayward brigantine ship that sank in Antarctic waters. The frozen water cube is displayed inside a bubble to conserve it.
+               <br><br><br><br><br><br><br><br><br><br>
+
+
+              </div>
+          </div>
+      </div>
+      <!-- row seven end -->
+
+
+    </div>
+
+    <!-- body end -->
+</div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
